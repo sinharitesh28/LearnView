@@ -1,0 +1,424 @@
+{
+  "slide_id": "Slide20_IschaemiaReperfusion",
+  "elements": [
+    {
+      "object_id": "bg_rect",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 955
+      },
+      "style_attrs": "fill:#FEFBF6;",
+      "z_order": 0
+    },
+    {
+      "object_id": "title",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 960,
+        "y": 150,
+        "text-anchor": "middle",
+        "dominant-baseline": "auto"
+      },
+      "style_attrs": "font-size:40px; font-weight:bold; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Ischaemia-Reperfusion Injury & Consequences"
+    },
+    {
+      "object_id": "subtitle",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 960,
+        "y": 190,
+        "text-anchor": "middle"
+      },
+      "style_attrs": "font-size:18px; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Core trigger: Restoration of blood flow after ischaemic period"
+    },
+    {
+      "object_id": "node_restore_rect",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 810,
+        "y": 220,
+        "width": 300,
+        "height": 60,
+        "rx": 10,
+        "ry": 10
+      },
+      "style_attrs": "fill:#FEFBF6; stroke:#3D3C42; stroke-width:2;",
+      "z_order": 3
+    },
+    {
+      "object_id": "node_restore_text",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 960,
+        "y": 250,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:24px; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Restoration of Blood Flow"
+    },
+    {
+      "object_id": "arrow_restore_to_duration_line",
+      "object_type": "line",
+      "geometry_attrs": {
+        "x1": 960,
+        "y1": 280,
+        "x2": 960,
+        "y2": 315
+      },
+      "style_attrs": "stroke:#3D3C42; stroke-width:2;",
+      "z_order": 1
+    },
+    {
+      "object_id": "arrowhead_restore_to_duration",
+      "object_type": "polygon",
+      "geometry_attrs": {
+        "points": "960,320 955,315 965,315"
+      },
+      "style_attrs": "fill:#3D3C42;",
+      "z_order": 2
+    },
+    {
+      "object_id": "diamond_duration",
+      "object_type": "polygon",
+      "geometry_attrs": {
+        "points": "960,330 1060,380 960,430 860,380"
+      },
+      "style_attrs": "fill:#FEFBF6; stroke:#3D3C42; stroke-width:2;",
+      "z_order": 2
+    },
+    {
+      "object_id": "diamond_text",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 960,
+        "y": 380,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:20px; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Ischaemia Duration?"
+    },
+    {
+      "object_id": "left_arrow_line",
+      "object_type": "line",
+      "geometry_attrs": {
+        "x1": 860,
+        "y1": 380,
+        "x2": 455,
+        "y2": 497
+      },
+      "style_attrs": "stroke:#3D3C42; stroke-width:2;",
+      "z_order": 1
+    },
+    {
+      "object_id": "left_arrowhead",
+      "object_type": "polygon",
+      "geometry_attrs": {
+        "points": "445,500 453,492 456,502"
+      },
+      "style_attrs": "fill:#3D3C42;",
+      "z_order": 2
+    },
+    {
+      "object_id": "center_arrow_line",
+      "object_type": "line",
+      "geometry_attrs": {
+        "x1": 960,
+        "y1": 430,
+        "x2": 960,
+        "y2": 495
+      },
+      "style_attrs": "stroke:#3D3C42; stroke-width:2;",
+      "z_order": 1
+    },
+    {
+      "object_id": "center_arrowhead",
+      "object_type": "polygon",
+      "geometry_attrs": {
+        "points": "960,500 955,495 965,495"
+      },
+      "style_attrs": "fill:#3D3C42;",
+      "z_order": 2
+    },
+    {
+      "object_id": "right_arrow_line",
+      "object_type": "line",
+      "geometry_attrs": {
+        "x1": 1060,
+        "y1": 380,
+        "x2": 1480,
+        "y2": 497
+      },
+      "style_attrs": "stroke:#3D3C42; stroke-width:2;",
+      "z_order": 1
+    },
+    {
+      "object_id": "right_arrowhead",
+      "object_type": "polygon",
+      "geometry_attrs": {
+        "points": "1490,500 1479,502 1481,492"
+      },
+      "style_attrs": "fill:#3D3C42;",
+      "z_order": 2
+    },
+    {
+      "object_id": "box_path1_rect",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 300,
+        "y": 500,
+        "width": 260,
+        "height": 80,
+        "rx": 8,
+        "ry": 8
+      },
+      "style_attrs": "fill:#A6D1E6; stroke:#3D3C42; stroke-width:2;",
+      "z_order": 3
+    },
+    {
+      "object_id": "box_path1_text_short",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 430,
+        "y": 520,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:14px; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Short Duration"
+    },
+    {
+      "object_id": "box_path1_text_reversible",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 430,
+        "y": 545,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:18px; font-weight:bold; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Reversible Injury"
+    },
+    {
+      "object_id": "box_path1_text_restoration",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 430,
+        "y": 565,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:14px; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Structural/Functional Restoration"
+    },
+    {
+      "object_id": "box_path2_rect",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 830,
+        "y": 500,
+        "width": 260,
+        "height": 80,
+        "rx": 8,
+        "ry": 8
+      },
+      "style_attrs": "fill:#7F5283; stroke:#3D3C42; stroke-width:2;",
+      "z_order": 3
+    },
+    {
+      "object_id": "box_path2_text_longer",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 960,
+        "y": 520,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:14px; fill:#FEFBF6; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Longer Duration"
+    },
+    {
+      "object_id": "box_path2_text_reperfusion",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 960,
+        "y": 545,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:18px; font-weight:bold; fill:#FEFBF6; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Reperfusion Injury"
+    },
+    {
+      "object_id": "box_path2_text_paradoxical",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 960,
+        "y": 565,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:14px; fill:#FEFBF6; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Paradoxical Deterioration"
+    },
+    {
+      "object_id": "box_path3_rect",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 1360,
+        "y": 500,
+        "width": 260,
+        "height": 80,
+        "rx": 8,
+        "ry": 8
+      },
+      "style_attrs": "fill:#3D3C42; stroke:#7F5283; stroke-width:2;",
+      "z_order": 3
+    },
+    {
+      "object_id": "box_path3_text_much",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 1490,
+        "y": 520,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:14px; fill:#FEFBF6; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Much Longer"
+    },
+    {
+      "object_id": "box_path3_text_irreversible",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 1490,
+        "y": 545,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:18px; font-weight:bold; fill:#FEFBF6; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Irreversible Injury"
+    },
+    {
+      "object_id": "box_path3_text_cell_death",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 1490,
+        "y": 565,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:14px; fill:#FEFBF6; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Cell Death"
+    },
+    {
+      "object_id": "ion_overload_circle",
+      "object_type": "circle",
+      "geometry_attrs": {
+        "cx": 1665,
+        "cy": 535,
+        "r": 28
+      },
+      "style_attrs": "fill:#7F5283; stroke:#FEFBF6; stroke-width:2;",
+      "z_order": 4
+    },
+    {
+      "object_id": "ion_text_na",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 1665,
+        "y": 528,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:13px; fill:#FEFBF6; font-family:Arial, sans-serif;",
+      "z_order": 6,
+      "content": "Na⁺"
+    },
+    {
+      "object_id": "ion_text_ca",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 1665,
+        "y": 545,
+        "text-anchor": "middle",
+        "dominant-baseline": "middle"
+      },
+      "style_attrs": "font-size:13px; fill:#FEFBF6; font-family:Arial, sans-serif;",
+      "z_order": 6,
+      "content": "Ca²⁺"
+    },
+    {
+      "object_id": "pearl_rect",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 460,
+        "y": 720,
+        "width": 1000,
+        "height": 70,
+        "rx": 10,
+        "ry": 10
+      },
+      "style_attrs": "fill:#FEFBF6; stroke:#7F5283; stroke-width:3;",
+      "z_order": 3
+    },
+    {
+      "object_id": "pearl_title",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 480,
+        "y": 740,
+        "text-anchor": "start",
+        "dominant-baseline": "auto"
+      },
+      "style_attrs": "font-size:18px; font-weight:bold; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "PEARL:"
+    },
+    {
+      "object_id": "pearl_line1",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 550,
+        "y": 738,
+        "text-anchor": "start",
+        "dominant-baseline": "auto"
+      },
+      "style_attrs": "font-size:16px; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "Reperfusion injury is paradoxical; irreversible injury is NOT attributed"
+    },
+    {
+      "object_id": "pearl_line2",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 550,
+        "y": 760,
+        "text-anchor": "start",
+        "dominant-baseline": "auto"
+      },
+      "style_attrs": "font-size:16px; fill:#3D3C42; font-family:Arial, sans-serif;",
+      "z_order": 5,
+      "content": "to activated oxygen species but to persistent membrane damage causing ion dysregulation."
+    }
+  ]
+}
