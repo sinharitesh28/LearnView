@@ -1,424 +1,515 @@
 {
-  "slide_id": "Slide20_IschaemiaReperfusion",
   "elements": [
     {
-      "object_id": "bg_rect",
+      "object_id": "bg_canvas",
       "object_type": "rect",
       "geometry_attrs": {
         "x": 0,
         "y": 0,
-        "width": 1920,
-        "height": 955
+        "width": 7200,
+        "height": 10800
       },
       "style_attrs": "fill:#FEFBF6;",
       "z_order": 0
     },
     {
-      "object_id": "title",
+      "object_id": "hero_frame",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 400,
+        "y": 400,
+        "width": 6400,
+        "height": 1600,
+        "rx": 80
+      },
+      "style_attrs": "fill:none; stroke:#A6D1E6; stroke-width:30;",
+      "z_order": 1
+    },
+    {
+      "object_id": "hero_line",
+      "object_type": "line",
+      "geometry_attrs": {
+        "x1": 2000,
+        "y1": 1550,
+        "x2": 5200,
+        "y2": 1550
+      },
+      "style_attrs": "stroke:#A6D1E6; stroke-width:10;",
+      "z_order": 1
+    },
+    {
+      "object_id": "main_title",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 960,
-        "y": 150,
-        "text-anchor": "middle",
-        "dominant-baseline": "auto"
+        "x": 3600,
+        "y": 1000
       },
-      "style_attrs": "font-size:40px; font-weight:bold; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Ischaemia-Reperfusion Injury & Consequences"
+      "style_attrs": "fill:#3D3C42; font-size:550px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "SEVARTHAM"
     },
     {
       "object_id": "subtitle",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 960,
-        "y": 190,
-        "text-anchor": "middle"
+        "x": 3600,
+        "y": 1350
       },
-      "style_attrs": "font-size:18px; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Core trigger: Restoration of blood flow after ischaemic period"
+      "style_attrs": "fill:#7F5283; font-size:180px; text-anchor:middle; font-weight:bold; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Community Health Promotion & Environment Sustainability Initiative."
     },
     {
-      "object_id": "node_restore_rect",
-      "object_type": "rect",
-      "geometry_attrs": {
-        "x": 810,
-        "y": 220,
-        "width": 300,
-        "height": 60,
-        "rx": 10,
-        "ry": 10
-      },
-      "style_attrs": "fill:#FEFBF6; stroke:#3D3C42; stroke-width:2;",
-      "z_order": 3
-    },
-    {
-      "object_id": "node_restore_text",
+      "object_id": "logistics",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 960,
-        "y": 250,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 3600,
+        "y": 1750
       },
-      "style_attrs": "font-size:24px; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Restoration of Blood Flow"
+      "style_attrs": "fill:#3D3C42; font-size:140px; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Date: June 29, 2026 | Location: Vejalpur Village, Waghodia, Vadodara."
     },
     {
-      "object_id": "arrow_restore_to_duration_line",
+      "object_id": "split_divider",
       "object_type": "line",
       "geometry_attrs": {
-        "x1": 960,
-        "y1": 280,
-        "x2": 960,
-        "y2": 315
+        "x1": 3600,
+        "y1": 2400,
+        "x2": 3600,
+        "y2": 6200
       },
-      "style_attrs": "stroke:#3D3C42; stroke-width:2;",
+      "style_attrs": "stroke:#A6D1E6; stroke-width:15; stroke-dasharray:60,60;",
       "z_order": 1
     },
     {
-      "object_id": "arrowhead_restore_to_duration",
-      "object_type": "polygon",
-      "geometry_attrs": {
-        "points": "960,320 955,315 965,315"
-      },
-      "style_attrs": "fill:#3D3C42;",
-      "z_order": 2
-    },
-    {
-      "object_id": "diamond_duration",
-      "object_type": "polygon",
-      "geometry_attrs": {
-        "points": "960,330 1060,380 960,430 860,380"
-      },
-      "style_attrs": "fill:#FEFBF6; stroke:#3D3C42; stroke-width:2;",
-      "z_order": 2
-    },
-    {
-      "object_id": "diamond_text",
+      "object_id": "sec_a_title",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 960,
-        "y": 380,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 1800,
+        "y": 2500
       },
-      "style_attrs": "font-size:20px; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Ischaemia Duration?"
+      "style_attrs": "fill:#7F5283; font-size:220px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Health & Wellness Initiatives"
     },
     {
-      "object_id": "left_arrow_line",
-      "object_type": "line",
+      "object_id": "sec_a_p1_l1",
+      "object_type": "text",
       "geometry_attrs": {
-        "x1": 860,
-        "y1": 380,
-        "x2": 455,
-        "y2": 497
+        "x": 1800,
+        "y": 2800
       },
-      "style_attrs": "stroke:#3D3C42; stroke-width:2;",
+      "style_attrs": "fill:#3D3C42; font-size:130px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Free Health Checkup Camp:"
+    },
+    {
+      "object_id": "sec_a_p1_l2",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 1800,
+        "y": 2980
+      },
+      "style_attrs": "fill:#3D3C42; font-size:130px; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Monitoring BP, BMI, HR, and Blood Sugar."
+    },
+    {
+      "object_id": "sec_a_p2_l1",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 1800,
+        "y": 3250
+      },
+      "style_attrs": "fill:#3D3C42; font-size:130px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Patient Counselling:"
+    },
+    {
+      "object_id": "sec_a_p2_l2",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 1800,
+        "y": 3430
+      },
+      "style_attrs": "fill:#3D3C42; font-size:130px; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Expert guidance on managing common diseases."
+    },
+    {
+      "object_id": "flow1_box1",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 800,
+        "y": 3800,
+        "width": 2000,
+        "height": 500,
+        "rx": 50
+      },
+      "style_attrs": "fill:#A6D1E6; stroke:#3D3C42; stroke-width:15;",
       "z_order": 1
     },
     {
-      "object_id": "left_arrowhead",
-      "object_type": "polygon",
+      "object_id": "flow1_t1",
+      "object_type": "text",
       "geometry_attrs": {
-        "points": "445,500 453,492 456,502"
+        "x": 1800,
+        "y": 4100
       },
-      "style_attrs": "fill:#3D3C42;",
+      "style_attrs": "fill:#3D3C42; font-size:160px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Diagnostic Metrics"
+    },
+    {
+      "object_id": "flow1_pulse",
+      "object_type": "path",
+      "geometry_attrs": {
+        "d": "M 900 4050 L 1050 4050 L 1150 3900 L 1250 4200 L 1350 4050 L 1500 4050"
+      },
+      "style_attrs": "fill:none; stroke:#3D3C42; stroke-width:25; stroke-linejoin:round;",
       "z_order": 2
     },
     {
-      "object_id": "center_arrow_line",
-      "object_type": "line",
+      "object_id": "flow1_box2",
+      "object_type": "rect",
       "geometry_attrs": {
-        "x1": 960,
-        "y1": 430,
-        "x2": 960,
-        "y2": 495
+        "x": 800,
+        "y": 5000,
+        "width": 2000,
+        "height": 500,
+        "rx": 50
       },
-      "style_attrs": "stroke:#3D3C42; stroke-width:2;",
+      "style_attrs": "fill:#7F5283; stroke:#3D3C42; stroke-width:15;",
       "z_order": 1
     },
     {
-      "object_id": "center_arrowhead",
-      "object_type": "polygon",
+      "object_id": "flow1_t2",
+      "object_type": "text",
       "geometry_attrs": {
-        "points": "960,500 955,495 965,495"
+        "x": 1800,
+        "y": 5300
       },
-      "style_attrs": "fill:#3D3C42;",
+      "style_attrs": "fill:#FEFBF6; font-size:160px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Counselling Phase"
+    },
+    {
+      "object_id": "flow1_cross",
+      "object_type": "path",
+      "geometry_attrs": {
+        "d": "M 1050 5200 h 80 v -80 h 80 v 80 h 80 v 80 h -80 v 80 h -80 v -80 h -80 Z"
+      },
+      "style_attrs": "fill:#FEFBF6;",
       "z_order": 2
     },
     {
-      "object_id": "right_arrow_line",
+      "object_id": "flow1_arrow_line",
       "object_type": "line",
       "geometry_attrs": {
-        "x1": 1060,
-        "y1": 380,
-        "x2": 1480,
-        "y2": 497
+        "x1": 1800,
+        "y1": 4300,
+        "x2": 1800,
+        "y2": 4900
       },
-      "style_attrs": "stroke:#3D3C42; stroke-width:2;",
+      "style_attrs": "stroke:#3D3C42; stroke-width:20;",
       "z_order": 1
     },
     {
-      "object_id": "right_arrowhead",
-      "object_type": "polygon",
+      "object_id": "flow1_arrow_head",
+      "object_type": "path",
       "geometry_attrs": {
-        "points": "1490,500 1479,502 1481,492"
+        "d": "M 1750 4850 L 1850 4850 L 1800 4950 Z"
       },
       "style_attrs": "fill:#3D3C42;",
-      "z_order": 2
+      "z_order": 1
     },
     {
-      "object_id": "box_path1_rect",
-      "object_type": "rect",
-      "geometry_attrs": {
-        "x": 300,
-        "y": 500,
-        "width": 260,
-        "height": 80,
-        "rx": 8,
-        "ry": 8
-      },
-      "style_attrs": "fill:#A6D1E6; stroke:#3D3C42; stroke-width:2;",
-      "z_order": 3
-    },
-    {
-      "object_id": "box_path1_text_short",
+      "object_id": "sec_b_title",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 430,
-        "y": 520,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 5400,
+        "y": 2500
       },
-      "style_attrs": "font-size:14px; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Short Duration"
+      "style_attrs": "fill:#7F5283; font-size:220px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Environmental Action"
     },
     {
-      "object_id": "box_path1_text_reversible",
+      "object_id": "sec_b_p1_l1",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 430,
-        "y": 545,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 5400,
+        "y": 2800
       },
-      "style_attrs": "font-size:18px; font-weight:bold; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Reversible Injury"
+      "style_attrs": "fill:#3D3C42; font-size:130px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Awareness Campaign:"
     },
     {
-      "object_id": "box_path1_text_restoration",
+      "object_id": "sec_b_p1_l2",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 430,
-        "y": 565,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 5400,
+        "y": 2980
       },
-      "style_attrs": "font-size:14px; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Structural/Functional Restoration"
+      "style_attrs": "fill:#3D3C42; font-size:130px; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Green Environment & Clean Water."
     },
     {
-      "object_id": "box_path2_rect",
-      "object_type": "rect",
-      "geometry_attrs": {
-        "x": 830,
-        "y": 500,
-        "width": 260,
-        "height": 80,
-        "rx": 8,
-        "ry": 8
-      },
-      "style_attrs": "fill:#7F5283; stroke:#3D3C42; stroke-width:2;",
-      "z_order": 3
-    },
-    {
-      "object_id": "box_path2_text_longer",
+      "object_id": "sec_b_p2_l1",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 960,
-        "y": 520,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 5400,
+        "y": 3250
       },
-      "style_attrs": "font-size:14px; fill:#FEFBF6; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Longer Duration"
+      "style_attrs": "fill:#3D3C42; font-size:130px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Mega Plantation Drive:"
     },
     {
-      "object_id": "box_path2_text_reperfusion",
+      "object_id": "sec_b_p2_l2",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 960,
-        "y": 545,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 5400,
+        "y": 3430
       },
-      "style_attrs": "font-size:18px; font-weight:bold; fill:#FEFBF6; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Reperfusion Injury"
+      "style_attrs": "fill:#3D3C42; font-size:130px; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Planting 200 saplings for World Environment Day."
     },
     {
-      "object_id": "box_path2_text_paradoxical",
-      "object_type": "text",
-      "geometry_attrs": {
-        "x": 960,
-        "y": 565,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
-      },
-      "style_attrs": "font-size:14px; fill:#FEFBF6; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Paradoxical Deterioration"
-    },
-    {
-      "object_id": "box_path3_rect",
-      "object_type": "rect",
-      "geometry_attrs": {
-        "x": 1360,
-        "y": 500,
-        "width": 260,
-        "height": 80,
-        "rx": 8,
-        "ry": 8
-      },
-      "style_attrs": "fill:#3D3C42; stroke:#7F5283; stroke-width:2;",
-      "z_order": 3
-    },
-    {
-      "object_id": "box_path3_text_much",
-      "object_type": "text",
-      "geometry_attrs": {
-        "x": 1490,
-        "y": 520,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
-      },
-      "style_attrs": "font-size:14px; fill:#FEFBF6; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Much Longer"
-    },
-    {
-      "object_id": "box_path3_text_irreversible",
-      "object_type": "text",
-      "geometry_attrs": {
-        "x": 1490,
-        "y": 545,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
-      },
-      "style_attrs": "font-size:18px; font-weight:bold; fill:#FEFBF6; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Irreversible Injury"
-    },
-    {
-      "object_id": "box_path3_text_cell_death",
-      "object_type": "text",
-      "geometry_attrs": {
-        "x": 1490,
-        "y": 565,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
-      },
-      "style_attrs": "font-size:14px; fill:#FEFBF6; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Cell Death"
-    },
-    {
-      "object_id": "ion_overload_circle",
+      "object_id": "flow2_circle1",
       "object_type": "circle",
       "geometry_attrs": {
-        "cx": 1665,
-        "cy": 535,
-        "r": 28
+        "cx": 5400,
+        "cy": 4100,
+        "r": 350
       },
-      "style_attrs": "fill:#7F5283; stroke:#FEFBF6; stroke-width:2;",
-      "z_order": 4
+      "style_attrs": "fill:#A6D1E6; stroke:#3D3C42; stroke-width:15;",
+      "z_order": 1
     },
     {
-      "object_id": "ion_text_na",
+      "object_id": "flow2_t1",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 1665,
-        "y": 528,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 5400,
+        "y": 4140
       },
-      "style_attrs": "font-size:13px; fill:#FEFBF6; font-family:Arial, sans-serif;",
-      "z_order": 6,
-      "content": "Na⁺"
+      "style_attrs": "fill:#3D3C42; font-size:130px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Clean Water"
     },
     {
-      "object_id": "ion_text_ca",
+      "object_id": "flow2_circle2",
+      "object_type": "circle",
+      "geometry_attrs": {
+        "cx": 5400,
+        "cy": 5200,
+        "r": 350
+      },
+      "style_attrs": "fill:#7F5283; stroke:#3D3C42; stroke-width:15;",
+      "z_order": 1
+    },
+    {
+      "object_id": "flow2_t2",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 1665,
-        "y": 545,
-        "text-anchor": "middle",
-        "dominant-baseline": "middle"
+        "x": 5400,
+        "y": 5240
       },
-      "style_attrs": "font-size:13px; fill:#FEFBF6; font-family:Arial, sans-serif;",
-      "z_order": 6,
-      "content": "Ca²⁺"
+      "style_attrs": "fill:#FEFBF6; font-size:130px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "200 Saplings"
     },
     {
-      "object_id": "pearl_rect",
+      "object_id": "flow2_arc1",
+      "object_type": "path",
+      "geometry_attrs": {
+        "d": "M 5800 4250 Q 6200 4650 5800 5050"
+      },
+      "style_attrs": "fill:none; stroke:#3D3C42; stroke-width:20;",
+      "z_order": 1
+    },
+    {
+      "object_id": "flow2_arc1_head",
+      "object_type": "path",
+      "geometry_attrs": {
+        "d": "M 5750 4950 L 5850 4980 L 5750 5100 Z"
+      },
+      "style_attrs": "fill:#3D3C42;",
+      "z_order": 1
+    },
+    {
+      "object_id": "flow2_arc2",
+      "object_type": "path",
+      "geometry_attrs": {
+        "d": "M 5000 5050 Q 4600 4650 5000 4250"
+      },
+      "style_attrs": "fill:none; stroke:#3D3C42; stroke-width:20;",
+      "z_order": 1
+    },
+    {
+      "object_id": "flow2_arc2_head",
+      "object_type": "path",
+      "geometry_attrs": {
+        "d": "M 5050 4350 L 4950 4320 L 5050 4200 Z"
+      },
+      "style_attrs": "fill:#3D3C42;",
+      "z_order": 1
+    },
+    {
+      "object_id": "footer_divider",
+      "object_type": "line",
+      "geometry_attrs": {
+        "x1": 800,
+        "y1": 6600,
+        "x2": 6400,
+        "y2": 6600
+      },
+      "style_attrs": "stroke:#3D3C42; stroke-width:20;",
+      "z_order": 1
+    },
+    {
+      "object_id": "footer_title",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 3600,
+        "y": 7100
+      },
+      "style_attrs": "fill:#3D3C42; font-size:220px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 1,
+      "text": "ORGANIZING COLLABORATORS"
+    },
+    {
+      "object_id": "node1_rect",
       "object_type": "rect",
       "geometry_attrs": {
-        "x": 460,
-        "y": 720,
-        "width": 1000,
-        "height": 70,
-        "rx": 10,
-        "ry": 10
+        "x": 400,
+        "y": 7600,
+        "width": 1800,
+        "height": 800,
+        "rx": 50
       },
-      "style_attrs": "fill:#FEFBF6; stroke:#7F5283; stroke-width:3;",
-      "z_order": 3
+      "style_attrs": "fill:#A6D1E6; stroke:#3D3C42; stroke-width:15;",
+      "z_order": 1
     },
     {
-      "object_id": "pearl_title",
+      "object_id": "node1_t1",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 480,
-        "y": 740,
-        "text-anchor": "start",
-        "dominant-baseline": "auto"
+        "x": 1300,
+        "y": 7950
       },
-      "style_attrs": "font-size:18px; font-weight:bold; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "PEARL:"
+      "style_attrs": "fill:#3D3C42; font-size:100px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Dept. of Pharmacy Practice"
     },
     {
-      "object_id": "pearl_line1",
+      "object_id": "node1_t2",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 550,
-        "y": 738,
-        "text-anchor": "start",
-        "dominant-baseline": "auto"
+        "x": 1300,
+        "y": 8150
       },
-      "style_attrs": "font-size:16px; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "Reperfusion injury is paradoxical; irreversible injury is NOT attributed"
+      "style_attrs": "fill:#3D3C42; font-size:90px; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Parul Institute of Pharmacy"
     },
     {
-      "object_id": "pearl_line2",
+      "object_id": "node2_rect",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 2700,
+        "y": 7600,
+        "width": 1800,
+        "height": 800,
+        "rx": 50
+      },
+      "style_attrs": "fill:#7F5283; stroke:#3D3C42; stroke-width:15;",
+      "z_order": 1
+    },
+    {
+      "object_id": "node2_t1",
       "object_type": "text",
       "geometry_attrs": {
-        "x": 550,
-        "y": 760,
-        "text-anchor": "start",
-        "dominant-baseline": "auto"
+        "x": 3600,
+        "y": 7950
       },
-      "style_attrs": "font-size:16px; fill:#3D3C42; font-family:Arial, sans-serif;",
-      "z_order": 5,
-      "content": "to activated oxygen species but to persistent membrane damage causing ion dysregulation."
+      "style_attrs": "fill:#FEFBF6; font-size:100px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Dept. of Kaumarbhritya"
+    },
+    {
+      "object_id": "node2_t2",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 3600,
+        "y": 8150
+      },
+      "style_attrs": "fill:#FEFBF6; font-size:90px; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Parul Institute of Ayurveda"
+    },
+    {
+      "object_id": "node3_rect",
+      "object_type": "rect",
+      "geometry_attrs": {
+        "x": 5000,
+        "y": 7600,
+        "width": 1800,
+        "height": 800,
+        "rx": 50
+      },
+      "style_attrs": "fill:#A6D1E6; stroke:#3D3C42; stroke-width:15;",
+      "z_order": 1
+    },
+    {
+      "object_id": "node3_t1",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 5900,
+        "y": 7950
+      },
+      "style_attrs": "fill:#3D3C42; font-size:100px; font-weight:bold; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Moxieheal Foundation"
+    },
+    {
+      "object_id": "node3_t2",
+      "object_type": "text",
+      "geometry_attrs": {
+        "x": 5900,
+        "y": 8150
+      },
+      "style_attrs": "fill:#3D3C42; font-size:90px; text-anchor:middle; font-family:sans-serif;",
+      "z_order": 2,
+      "text": "Plantation Activity Partner"
+    },
+    {
+      "object_id": "conn1",
+      "object_type": "line",
+      "geometry_attrs": {
+        "x1": 2200,
+        "y1": 8000,
+        "x2": 2700,
+        "y2": 8000
+      },
+      "style_attrs": "stroke:#3D3C42; stroke-width:20;",
+      "z_order": 1
+    },
+    {
+      "object_id": "conn2",
+      "object_type": "line",
+      "geometry_attrs": {
+        "x1": 4500,
+        "y1": 8000,
+        "x2": 5000,
+        "y2": 8000
+      },
+      "style_attrs": "stroke:#3D3C42; stroke-width:20;",
+      "z_order": 1
     }
   ]
 }
